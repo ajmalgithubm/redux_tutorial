@@ -1,3 +1,4 @@
+
 const initialState = {
     tasks : []
 }
@@ -12,3 +13,4 @@ const taskReducers = ( state= initialState, action) => {
             return state
     }
 }
+export default taskReducers
